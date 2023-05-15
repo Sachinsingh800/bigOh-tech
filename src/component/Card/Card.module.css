@@ -1,0 +1,25 @@
+.main{
+    border: 1px red solid;
+    width: 50rem;
+    margin-top: 2rem;
+    height: 17rem;
+    background:#034694;
+    padding-top: 2rem;
+    border-radius: 20px;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+}
+.buttons button{
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    background-color: #1ebcd5;
+    border: none;
+}

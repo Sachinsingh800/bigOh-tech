@@ -2,6 +2,7 @@
     color: white;
     background-color: rgb(24, 24, 120);
     cursor: pointer;
+    width: 100vw;
 }
 .image{
     height: 25px;
@@ -16,6 +17,8 @@
     background-color: blue;
     color: white;
     border: none;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
 }
 
 .opt:hover{
