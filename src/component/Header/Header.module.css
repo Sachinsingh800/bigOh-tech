@@ -1,0 +1,36 @@
+.main{
+    color: white;
+    background-color: rgb(24, 24, 120);
+    cursor: pointer;
+}
+.image{
+    height: 25px;
+    margin-left: 2rem;
+}
+.links{
+    display: flex;
+    gap: 1rem;
+    margin-left: 23rem; 
+}
+.links button{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.opt:hover{
+color: blue;
+}
+.dropdown{
+    display: none;
+}
+
+@media (max-width:700px){
+    .opt{
+        display: none;
+    }
+    .dropdown{
+        display: unset;
+        margin-right: 8rem;
+    }
+}
