@@ -56,7 +56,7 @@ export default function Quizz() {
   }
   return (
     <div className={style.main}>
-      <h1>Quizz App</h1>
+      <h1>Test Start</h1>
       <div className={style.container}>
         {showResult ? (
           <>

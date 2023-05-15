@@ -9,6 +9,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Quizz from './component/Quizz/Quizz';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -17,8 +18,8 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "about",
-    element: <div>About</div>,
+    path: "/quizz",
+    element: <Quizz />,
   },
 ]);
 
